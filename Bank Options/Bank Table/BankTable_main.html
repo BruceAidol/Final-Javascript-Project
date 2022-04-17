@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/BankTable_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <title>Bank Table</title>
+</head>
+<body>
+    <h1 id="main_title">Tabla de Bancos</h1>
+    <div class="bank_form">
+        <div class="input-grp">
+            <label for="capital">Capital: <span class="required">*</span></label>
+            <input type="number" class="capital" placeholder="ex: 1000" autocomplete="off">
+        </div>
+        <div class="input-grp">
+            <label for="monthly_contribution">Contribución mensual: <span class="required">*</span></label>
+            <input type="number" class="monthly_contribution" placeholder="ex: 100" autocomplete="off">
+        </div>   
+        <button type="submit" class="btn btn-background-slide submit">Enviar</button>
+    </div>
+    <div class="alert hide">
+        <span class="fas fa-exclamation-circle"></span>
+        <span class="msg">Warning: This is a warning alert!</span>
+        <div class="close-btn">
+            <span class="fas fa-times"></span>
+        </div>
+    </div>
+    <div id="main">
+        <aside id="aside1"></aside>
+        <section id="main_section">
+            <section id="section1">
+                <h2>Información de Bancos</h2>
+                <table class="content_table">
+                    <thead>
+                        <tr>
+                            <td>Banco</td>
+                            <td>Capital</td>
+                            <td>Contribución<br>mensual</td>
+                            <td>Tiempo</td>
+                            <td>Tasa de<br>interés</td>
+                            <td>Variación<br>de la tasa<br>de interés</td>
+                            <td>Tipo de<br>interés</td>
+                            <td>Periodo de<br>capitalización</td>
+                            <td>Actions</td>
+                        </tr>
+                    </thead>
+                    <tbody id="banks"></tbody>
+                </table>    
+            </section>
+            <section id="section2">
+                <h2>Bancos Seleccionados</h2>
+                <table class="content_table">
+                    <thead>
+                        <tr>
+                            <td>Banco</td>
+                            <td>Capital</td>
+                            <td>Contribución<br>mensual</td>
+                            <td>Tiempo</td>
+                            <td>Tasa de<br>interés</td>
+                            <td>Variación<br>de la tasa<br>de interés</td>
+                            <td>Tipo de<br>interés</td>
+                            <td>Periodo de<br>capitalización</td>
+                            <td>Actions</td>
+                        </tr>
+                    </thead>
+                    <tbody id="banks_selected"></tbody>
+                </table>
+                <button class="btn btn-background-slide analize">Analizar</button>
+            </section>
+        </section>
+        <aside id="aside2"></aside>
+    </div>
+    <div class="graphic">
+        <figure class="highcharts-figure">
+            <div id="linear_graphic_container"></div>
+        </figure>
+    </div>
+    <script src="js/BankTable_script1.js"></script>
+    <script src="js/BankTable_script2.js"></script>
+    <script src="js/BankTable_script3.js"></script>
+</body>
+</html>

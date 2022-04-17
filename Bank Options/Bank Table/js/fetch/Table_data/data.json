@@ -1,0 +1,191 @@
+[
+    { 
+        "bank": "Banco GNB",
+        "time": 3.5,
+        "interest_rate": 45,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Simple",
+        "compound_frequency": null,
+        "id": 0
+    },
+    { 
+        "bank": "Banco GNB",
+        "time": 2,
+        "interest_rate": 50,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Compuesto",
+        "compound_frequency": "Anualmente",
+        "id": 1
+    },
+    { 
+        "bank": "Banco GNB",
+        "time": 3.5,
+        "interest_rate": 40,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Continuo",
+        "compound_frequency": null,
+        "id": 2
+    },
+    { 
+        "bank": "BBVA",
+        "time": 4,
+        "interest_rate": 50,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Simple",
+        "compound_frequency": null,
+        "id": 3
+    },
+    {
+        "bank": "BBVA",
+        "time": 4,
+        "interest_rate": 40,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Compuesto",
+        "compound_frequency": "Bimestralmente",
+        "id": 4
+    },
+    {
+        "bank": "BBVA",
+        "time": 4,
+        "interest_rate": 50,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Continuo",
+        "compound_frequency": null,
+        "id": 5
+    },
+    {
+        "bank": "Banco de crédito",
+        "time": 2,
+        "interest_rate": 38,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Simple",
+        "compound_frequency": null,
+        "id": 6
+    },
+    {
+        "bank": "Banco de crédito",
+        "time": 5,
+        "interest_rate": 44,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Compuesto",
+        "compound_frequency": "Semestralmente",
+        "id": 7
+    },
+    {
+        "bank": "Banco de crédito",
+        "time": 5,
+        "interest_rate": 60,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Continuo",
+        "compound_frequency": null,
+        "id": 8
+    },
+    {
+        "bank": "Banco pichincha",
+        "time": 2.5,
+        "interest_rate": 40,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Simple",
+        "compound_frequency": null,
+        "id": 9
+    },
+    {
+        "bank": "Banco pichincha",
+        "time": 1.5,
+        "interest_rate": 30,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Compuesto",
+        "compound_frequency": "Mensualmente",
+        "id": 10
+    },
+    {
+        "bank": "Banco pichincha",
+        "time": 6,
+        "interest_rate": 70,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Continuo",
+        "compound_frequency": null,
+        "id": 11
+    },
+    {
+        "bank": "Interbank",
+        "time": 5,
+        "interest_rate": 56,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Simple",
+        "compound_frequency": null,
+        "id": 12
+    },
+    {
+        "bank": "Interbank",
+        "time": 4.5,
+        "interest_rate": 38,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Compuesto",
+        "compound_frequency": "Trimestralmente",
+        "id": 13
+    },
+    {
+        "bank": "Interbank",
+        "time": 2.5,
+        "interest_rate": 30,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Continuo",
+        "compound_frequency": null,
+        "id": 14
+    },
+    {
+        "bank": "Banbif",
+        "time": 6.5,
+        "interest_rate": 65,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Simple",
+        "compound_frequency": null,
+        "id": 15
+    },
+    {
+        "bank": "Banbif",
+        "time": 6,
+        "interest_rate": 40,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Compuesto",
+        "compound_frequency": "Bimestralmente",
+        "id": 16
+    },
+    {
+        "bank": "Banbif",
+        "time": 4,
+        "interest_rate": 45,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Continuo",
+        "compound_frequency": null,
+        "id": 17
+    },
+    {
+        "bank": "Scotiabank",
+        "time": 1.5,
+        "interest_rate": 35,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Simple",
+        "compound_frequency": null,
+        "id": 18
+    },
+    {
+        "bank": "Scotiabank",
+        "time": 3,
+        "interest_rate": 32,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Compuesto",
+        "compound_frequency": "Bimestralmente",
+        "id": 19
+    },
+    {
+        "bank": "Scotiabank",
+        "time": 5,
+        "interest_rate": 55,
+        "interest_rate_variance_range": 3,
+        "type_of_interest": "Continuo",
+        "compound_frequency": null,
+        "id": 20
+    }
+]
